@@ -2,19 +2,8 @@
 Anime.js Cheat Sheet
 
 
-# [Anime.js](#_animejs)
-1. Remove Animation
-2. Bouncing easing
-3. Color switch
 
 
-
-
-
-
-
-<a name="_animejs"><h1>Anime.js</h1></a>
-<details><summary>Click to expand..</summary>
 
 <br><br>
 	
@@ -55,6 +44,4 @@ anime({
   easing: 'easeInOutQuad'
 });
 ```
-
-</details>
 
