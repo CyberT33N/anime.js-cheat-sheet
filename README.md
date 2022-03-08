@@ -4,6 +4,27 @@ Anime.js Cheat Sheet
 
 
 
+<br><br>
+	
+# Restart Animation
+```javascript
+    const tl = anime({
+        targets: '#XMLID_640_',
+        translateX: [
+            { value: '100%', duration: 5000 }
+        ],
+        translateY: [
+            { value: '150%', duration: 5000 }
+        ],
+        easing: 'linear'
+    })
+
+    setInterval(() => {
+        tl.pause()
+        setTimeout(() => tl.restart(), 5000)
+    }, 10000)
+```
+
 
 <br><br>
 	
